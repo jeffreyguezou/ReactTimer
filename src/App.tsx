@@ -63,7 +63,6 @@ function App() {
 
   const btnClickHandler = () => {
     btnToggler();
-    console.log({ interval });
     if (typeof interval === "number") {
       clearInterval(interval);
       interval = undefined;
